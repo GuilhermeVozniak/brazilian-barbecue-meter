@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brazilian Barbecue Meter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Brazilian Barbecue Meter</h1>
+    <main class="containerForm" id="containerForm">
+        <h2>info:</h2>
+        <input type="number" name="adults" id="adults" placeholder="adults">
+        <input type="number" name="kids" id="kids" placeholder="kids">
+        <input type="number" name="duration" id="duration" placeholder="duration (H)">
+        <input type="submit" value="calculate" id="calc" onclick="calculate()">
+        <h2>RESULT:</h2>
+        <div class="result">
+            <p>
+                <img src="./img/meet.png" alt="meet">
+                <span id="meet"></span>
+            </p>
+            <p>
+                <img src="./img/soda.png" alt="meet">
+                <span id="soda"></span>
+            </p>
+            <p>
+                <img src="./img/beer.png" alt="meet">
+                <span id="beer"></span>
+            </p>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
